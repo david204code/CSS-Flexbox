@@ -8,9 +8,7 @@
     height: 100vh;
     border: 20px solid rgb(0,0,0);
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .child1{
@@ -29,4 +27,10 @@
     width: 200px;
     height: 200px;
     background: rgb(149,43,140);
+}
+
+.child4{
+    width: 200px;
+    height: 200px;
+    background: rgb(48, 153, 100);
 }
